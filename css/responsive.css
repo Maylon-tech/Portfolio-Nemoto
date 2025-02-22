@@ -1,0 +1,92 @@
+
+
+@media (max-width: 350px) {
+    .hero {
+        background-position: bottom center;
+        background-repeat:no-repeat;
+        height: 80vh;
+    }
+    .hero nav {
+       
+    }
+
+    nav .logo {
+        font-size: 1rem;
+    }
+
+    .menu-mobile {
+        display: none;
+        transition: all .4s;
+    }
+
+    .menu-mobile.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        background: #111;
+        width: 60%;
+        height: 30vh;
+        transition: all .4s;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .content {
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+    .content h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .content h4{
+        color: #eee;
+        letter-spacing: 1px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .content h3{
+        color: #eee;
+        font-size: 20px;
+        margin-bottom: 1.2rem;
+        text-align: center;
+    }
+    .content p {
+        max-width: 580px;
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #eee;
+        line-height: 1.2;
+        padding-left: 20px;
+        font-size: .9rem;
+        font-weight: 400;
+    }
+    .button-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+    }
+    .btn-main {
+        font-size: .8rem;
+        padding: 6px 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    
+}
+
+
+@media (max-width: 1200px) {
+    
+}
