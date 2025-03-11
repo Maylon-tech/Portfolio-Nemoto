@@ -162,6 +162,10 @@ nav ul li a:hover{
 	align-items: center;
 	justify-content: space-around;
 }
+.main img {
+	border-radius: 50%;
+	box-shadow: 2px 2px 12px rgba(255,255,255,0.5);
+}
 .about-text h2{
 	color: white;
 	font-size: 75px;
@@ -272,6 +276,10 @@ nav ul li a:hover{
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	transition: all .2s ease;
+}
+.card:hover {
+	transform: translateY(-8px);
 }
 .project-img {
 	height: 65%;
