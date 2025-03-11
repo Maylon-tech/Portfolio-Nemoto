@@ -175,6 +175,24 @@ nav ul li a:hover{
 	font-size: 18px;
 	margin-bottom: 25px;
 }
+.about-info {
+	display: flex;
+	align-items:start;
+	flex-direction: column;
+	gap:1rem;
+}
+.about-info h4 {
+	color: white;
+	font-weight: bold;
+	padding: 8px 13px;
+	width: 20%;
+	border-bottom: 2px solid var(--main-color);
+}
+.about-info-item {
+	display: flex;
+	gap: .8rem;
+	color: #eee;
+}
 
 /* =============== Skills ================= */
 
