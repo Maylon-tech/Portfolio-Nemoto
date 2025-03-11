@@ -238,6 +238,12 @@ nav ul li a:hover{
 	gap: 2rem;
 	padding-bottom: 2rem;
 }
+.box-projects .release {
+	color: #eee;
+	font-size: 1.5rem;	
+	padding: 1rem;
+}
+
 .card{
 	height: 400px;
 	width: 400px;
