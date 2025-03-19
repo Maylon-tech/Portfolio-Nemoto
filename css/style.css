@@ -145,7 +145,7 @@ nav ul li a:hover{
 .about{
 	width: 100%;
 	padding: 100px 0px;
-	background-color: #191919;
+	background-color: #111;
 }
 .about img{
 	height: 100%;
@@ -202,8 +202,8 @@ nav ul li a:hover{
 /* =============== Skills ================= */
 
 .skills {
-	background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url("/img/coding-bg.jpg");
-	background-position: center botton;
+	background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.9)), url("/img/cybersecurity.png");
+	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 3rem 0;
