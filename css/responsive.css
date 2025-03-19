@@ -331,10 +331,7 @@
         transition: transform .4s; 
         /* margin-bottom: 1rem; */
     }
-    .main img {
-        height: 100%;
-        width: 280px;
-    }
+   
 
     /* Skills */
 
@@ -440,5 +437,110 @@
         font-weight: 800;
         font-size: 1rem;
         letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 290px) {
+    .hero {
+        background-position: bottom center;
+        background-repeat:no-repeat;
+        height: 55vh;
+    }
+    nav .logo {
+        font-size: 1rem;
+    }
+    .menu-mobile {
+        display: none;
+        transition: all .4s;
+    }
+    .menu-mobile.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        background: #111;
+        width: 60%;
+        height: 30vh;
+        transition: all .4s;
+    }
+    .menu-btn {
+        display: block;
+    }
+
+    .content {
+        top: 10%;
+    }
+    .content h1 {
+        font-size: 1.8rem;
+    }
+    .content h4{
+        color: #eee;
+        font-size: 1.1rem;
+    }
+    .content h3{
+        color: #eee;
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+        text-align: center;
+    }
+    .content p {
+        padding: .7rem;
+        font-size: .9rem;
+    }
+    .button-content {
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+    .button-content .btn-main {
+        font-size: .8rem;
+        padding: 6px 10px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    /* About */
+
+    .about {
+        padding: 1rem;
+    }
+  
+    .main img {
+        height: 100%;
+        width: 100px;
+    }
+    .main img {
+        height: 100%;
+        width: 200px;
+    }
+
+    /* Skills */
+
+    .skills {
+        padding: 1.2rem 0;
+        background: #111;
+    }
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+    .skills .title h2 {
+        padding: .9rem;
+        font-size: 1.6rem;
+        margin-bottom: 1.2rem;
+    }
+    .skills-container .box-skill {
+        margin: auto;
+        width: 200px;
+        height: 100px;
+    }
+    .skill-icon {
+        width: 45px;
+        height: 45px;
+    }
+    .box-skill h5 {
+        font-size: .8rem;
     }
 }
